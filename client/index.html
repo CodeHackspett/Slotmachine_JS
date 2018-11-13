@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NetEnt Code Assignment</title>
+    <link rel="stylesheet" href="client/style.css">
+    <script type="text/javascript" src="client/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+          <!-- Message container -->
+          <div><h1 id="topMessage">Press the button to play!</h1></div>
+            <!-- Slots container -->
+          <div id="result-container" class="row hide">
+            <img id="result1" class="adjustImage" alt="first Result">
+            <img id="result2" class="adjustImage" alt="second Result">
+            <img id="result3" class="adjustImage" alt="third Result">
+          </div>
+          <!-- Bonus Message container -->
+          <div id="bonus" class="row hide"> <!-- text-center -->
+            <h2>Bonus Win!!</h2>
+          </div>
+          <!-- Button Image container -->
+          <div class="row">
+            <img class="adjustImage" src="../img/button.png" alt="Play Button" onclick="clickHandler()">
+          </div>
+    </div>
+  </body>
+</html>

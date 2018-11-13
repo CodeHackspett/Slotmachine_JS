@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: "Courier New", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5vw;
+}
+
+h2 {
+  font-size: 1.5vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: : 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.hide{
+  display: none;
+}
+
+.adjustImage {
+  max-width: 10em;
+  max-height: auto;
+}
+
+#result1, #result2, #result3 {
+  width: 32%;
+}
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+}
